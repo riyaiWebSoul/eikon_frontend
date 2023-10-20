@@ -7,7 +7,7 @@ export default function SectionService2() {
 
 
    useEffect(() => {
-      const apiUrl = 'http://localhost:8080/mapingEcommerce';
+      const apiUrl = 'https://eikon-api.onrender.com/mapingEcommerce';
   
       // Make an HTTP GET request to the backend
       // Make an HTTP GET request to the backend
