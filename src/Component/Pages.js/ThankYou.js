@@ -7,7 +7,7 @@ export default function ThankYou() {
   const [jsonData, setJsonData] = useState([]); // Declare jsonData state
 
   useEffect(() => {
-    const apiUrl = "http://localhost:8080/enquiry/";
+    const apiUrl = "https://eikon-api.onrender.com/enquiry/";
 
     // Make an HTTP GET request to the backend
     axios

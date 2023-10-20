@@ -7,7 +7,7 @@ export default function AppointmentSuccess() {
   const [jsonData, setJsonData] = useState([]); // Declare jsonData state
 
   useEffect(() => {
-    const apiUrl = "http://localhost:8080/appointments/";
+    const apiUrl = "https://eikon-api.onrender.com/appointments/";
 
     // Make an HTTP GET request to the backend
     axios

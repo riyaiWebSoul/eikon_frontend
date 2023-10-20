@@ -4,7 +4,7 @@ import axios from 'axios';
 export default function View() {
   const [appointment, setAppointment] = useState({});
   const [listNumber, setListNumber] = useState(0); // Initialize listNumber to 0
-  const apiUrl = "http://localhost:8080/appointments/";
+  const apiUrl = "https://eikon-api.onrender.com/appointments/";
 
   useEffect(() => {
     axios

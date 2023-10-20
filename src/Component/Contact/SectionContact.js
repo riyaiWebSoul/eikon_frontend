@@ -6,7 +6,7 @@ export default function SectionContact() {
 
   useEffect(() => {
     // Define the backend API endpoint URL
-    const apiUrl = "http://localhost:8080/contact/";
+    const apiUrl = "https://eikon-api.onrender.com/contact/";
 
     // Make an HTTP GET request to the backend
     axios
