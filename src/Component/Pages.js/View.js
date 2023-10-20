@@ -4,7 +4,7 @@ import axios from 'axios';
 export default function View() {
   const [appointment, setAppointment] = useState({});
   const [listNumber, setListNumber] = useState(0); // Initialize listNumber to 0
-  const apiUrl = "https://eikon-api.onrender.com/appointments/";
+  const apiUrl = "https://eikon-api.onrender.com/appointments";
 
   useEffect(() => {
     axios
@@ -18,7 +18,7 @@ export default function View() {
         console.error("Error fetching data:", error);
       });
   }, []);
-
+ 
   const handlePrint = () => {
     const printWindow = window.open('', '_blank');
     const content = document.querySelector('.col-10.mx-auto').innerHTML;
