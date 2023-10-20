@@ -28,9 +28,9 @@ export default function SectionContact() {
             <div className="generic-banner-content text-white text-center">
               <h1>{jsonData.title}</h1>
               <div class="row justify-content-center">
-                <p class="text-white mb-0 mx-md-5 col-md-8">
+                {/* <p class="text-white mb-0 mx-md-5 col-md-8">
                   {jsonData.description}
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
